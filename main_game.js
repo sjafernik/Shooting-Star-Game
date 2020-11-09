@@ -39,11 +39,11 @@ function addToHighScore(obj, key, value, index) {
 			i++;
 		}
 	}
-	// If no index, add to the end
-	if (!index && key && value) {
-		temp[key] = value;
-	}
-	return temp;
+	    // If no index, add to the end
+        if (!index && key && value) {
+            temp[key] = value;
+        }
+        return temp;
 };
 
 
@@ -56,8 +56,6 @@ function updateHighScore() {
     scoreAbove60Popup.style.display = 'none'
     scoreAbove200Popup.style.display = 'none'
     gameOverText.innerHTML = 'High Score'
-
-
 
     if(typeof(Storage)!=="undefined") {
         var current = parseInt(score);
@@ -207,8 +205,8 @@ function backgroundMusic(){
 
 function exploMusic(sound){
     var phaserSound = document.getElementById(sound); 
-    phaserSound.muted = false;
-    phaserSound.play();
+        phaserSound.muted = false;
+        phaserSound.play();
 }
 
 function objectExplosion(evt){

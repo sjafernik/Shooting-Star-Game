@@ -1,0 +1,225 @@
+body {
+    background-image: url("developers.jpg");
+    background-size: cover;
+  }
+  
+  img {
+    max-width: 16%;
+    border-radius: 50%;
+    margin-left: 14em;
+    margin-top: 2em;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #valh2 {
+    margin-top: auto;
+    margin-left: 3.2em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
+     #FFF 0px 0px 15px, #FF2D95 0px 0px 20px,
+     #FF2D95 0px 0px 30px,
+     #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px,
+     #FF2D95 0px 0px 75px, 19px -1px 15px rgba(206,42,196,0.5), 
+     19px -1px 15px rgba(206,42,196,0.5);
+    color: #FFFFFF;
+    font-size: 47px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 6px;
+    word-spacing: 2px; 
+  }
+  
+  #valh {
+    margin-left: 3em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
+     #FFF 0px 0px 15px, #FF2D95 0px 0px 20px,
+     #FF2D95 0px 0px 30px,
+     #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px,
+     #FF2D95 0px 0px 75px, 19px -1px 15px rgba(206,42,196,0.5), 
+     19px -1px 15px rgba(206,42,196,0.5);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 6px;
+    word-spacing: 2px; 
+    background-color: rgba(211, 211, 211, 0.5);
+    height: 130px;
+    width: 410px;
+    padding: 25px;
+    padding: 37px 0;
+  }
+  
+  #val {
+    margin-left: 3em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
+     rgb(54, 6, 38) 0px 0px 15px, #680c42 0px 0px 20px,
+     #3a0725 0px 0px 30px,
+     #290a24 0px 0px 40px, #621d4b 0px 0px 50px,
+     #791f53 0px 0px 75px, 19px -1px 15px rgba(206, 42, 138, 0.5), 
+     19px -1px 15px rgba(202, 26, 164, 0.5);
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: 'Caveat', cursive;
+    word-spacing: 2px; 
+    background-color: rgba(211, 211, 211, 0.5);
+    height: auto;
+    width: 410px;
+    padding: 30px;
+  }
+  
+  #valm {
+    background-color: rgba(233, 150, 226, 0.726);
+    color: #FFFFFF;
+  }
+  
+  #math2 {
+    margin-top: auto;
+    margin-left: 3.2em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
+     rgb(255, 255, 255) 0px 0px 15px, #853415 0px 0px 20px,
+     #694c15 0px 0px 30px,
+     #853e15 0px 0px 40px, #612f12 0px 0px 50px,
+     #6e2c0d 0px 0px 75px, 19px -1px 15px rgba(206, 130, 42, 0.5), 
+     19px -1px 15px rgba(206, 121, 42, 0.5);
+    color: #FFFFFF;
+    font-size: 47px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 6px;
+    word-spacing: 2px; 
+  }
+  
+  #math {
+    margin-left: 3.2em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
+     #FFF 0px 0px 15px, #68210c 0px 0px 20px,
+     #cc5f17 0px 0px 30px,
+     #853f11 0px 0px 40px, #64310f 0px 0px 50px,
+     #6e3514 0px 0px 75px, 19px -1px 15px rgba(206, 157, 42, 0.5), 
+     19px -1px 15px rgba(206, 135, 42, 0.5);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 6px;
+    word-spacing: 2px; 
+    background-color: rgba(211, 211, 211, 0.5);
+    height: 130px;
+    width: 410px;
+    padding: 25px;
+    padding: 37px 0;
+  }
+  
+  #mat {
+    margin-left: 3.3em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
+     rgb(73, 32, 6) 0px 0px 15px, #68210c 0px 0px 20px,
+     #cc5f17 0px 0px 30px,
+     #853f11 0px 0px 40px, #64310f 0px 0px 50px,
+     #6e3514 0px 0px 75px, 19px -1px 15px rgba(206, 157, 42, 0.5), 
+     19px -1px 15px rgba(206, 135, 42, 0.5);
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: 'Caveat', cursive;
+    word-spacing: 2px; 
+    background-color: rgba(211, 211, 211, 0.5);
+    height: auto;
+    width: 410px;
+    padding: 30px;
+  }
+  
+  #matm {
+    background-color: rgba(133, 79, 18, 0.616);
+    color: #FFFFFF;
+  }
+  
+  #sylh2 {
+    margin-top: auto;
+    margin-left: 3.8em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
+     rgba(255, 255, 255, 0.931) 0px 0px 15px, #2d1585 0px 0px 20px,
+     #152269 0px 0px 30px,
+     #154985 0px 0px 40px, #123261 0px 0px 50px,
+     #0d2a6e 0px 0px 75px, 19px -1px 15px rgba(42, 80, 206, 0.5), 
+     19px -1px 15px rgba(42, 99, 206, 0.5);
+    color: #FFFFFF;
+    font-size: 47px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 6px;
+    word-spacing: 2px; 
+  }
+  
+  #sylh {
+    margin-left: 3.7em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
+     #FFF 0px 0px 15px, #2d1585 0px 0px 20px,
+     #152269 0px 0px 30px,
+     #154985 0px 0px 40px, #123261 0px 0px 50px,
+     #0d2a6e 0px 0px 75px, 19px -1px 15px rgba(42, 80, 206, 0.5), 
+     19px -1px 15px rgba(42, 99, 206, 0.5);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 6px;
+    word-spacing: 2px; 
+    background-color: rgba(211, 211, 211, 0.5);
+    height: 130px;
+    width: 410px;
+    padding: 25px;
+  }
+  
+  #syl {
+    margin-top: 1em;
+    margin-left: 3.9em;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
+     #FFF 0px 0px 15px, #120c68 0px 0px 20px,
+     #1723cc 0px 0px 30px,
+     #114385 0px 0px 40px, #0f3164 0px 0px 50px,
+     #141d6e 0px 0px 75px, 19px -1px 15px rgba(42, 80, 206, 0.5), 
+     19px -1px 15px rgba(42, 132, 206, 0.5);
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: 'Caveat', cursive;
+    word-spacing: 2px; 
+    background-color: rgba(211, 211, 211, 0.5);
+    height: auto;
+    width: 410px;
+    padding: 30px;
+  }
+  
+  #sylm {
+    background-color: rgba(45, 18, 133, 0.616);
+    color: #FFFFFF;
+  }
+
+  #gamePlay {
+    position: absolute;
+    top:10px;
+    left:10px;
+    width: 120px;
+    height: 120px;
+    font-size:20px;
+    font-family: Impact, Charcoal, sans-serif;
+    border:2px solid rgba(236, 230, 243, 0.13);
+    color: rgb(236, 230, 243);
+    font-weight:500;
+    background-image: url("backgroundButton.png");
+    -webkit-box-shadow: 5px 5px 15px 5px #0f0625, -9px 5px 15px 5px #a488ff00, -7px -5px 15px 5px #121611, 
+    12px -5px 15px 5px #291370, 12px 10px 15px 7px #1b0a20, -10px 10px 15px 7px #575152, 
+    -10px -7px 27px 1px #b9b8bb, inset 5px 5px 50px 5px rgba(14,7,61,0.71), 
+    inset 5px 5px 50px 5px rgba(14,7,61,0.71); 
+    box-shadow: 5px 5px 15px 5px #100525, -9px 5px 15px 5px #9a88ff11, -7px -5px 15px 5px #161d15, 
+    inset 5px 5px 50px 5px rgba(14,7,61,0.71);
+  }

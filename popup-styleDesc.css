@@ -1,0 +1,124 @@
+/* Title in popup */
+h2 {
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+    color: #E0DFDC;
+    font-size: 280%;
+}
+
+/* Text in popup */
+p1 {
+    font-size: 180%;
+    padding: 10px;
+    text-align: left;
+    margin: auto;
+    color: rgb(251, 251, 250);
+    text-shadow: 3px 2px 3px rgba(255,255,255,.2), -2px 3px 7px rgba(13,5,51,0.71), 
+    -2px 3px 7px rgba(216, 215, 221, 0.71);
+}
+
+/* Text in popup */
+p3 {
+    text-orientation: sideways;
+    font-size: 130%;
+    margin: auto;
+    color: rgb(251, 251, 250);
+    text-shadow: 3px 2px 3px rgba(255,255,255,.2), -2px 3px 7px rgba(13,5,51,0.71), 
+    -2px 3px 7px rgba(216, 215, 221, 0.71);
+}
+
+/* The background when popup is active */
+.description .overlayDesc {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  background:rgba(0,0,0,0.7);
+  z-index:1;
+  display:none;
+}
+
+/* The popup box */
+.description .contentDesc {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) scale(0);
+  background-image: url("description.jpg");
+  width:570px;
+  height:750px;
+  z-index:2;
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  -webkit-box-shadow: 5px 5px 15px 5px #0f0625, -9px 5px 15px 5px #a488ff00, -7px -5px 15px 5px #121611, 
+  12px -5px 15px 5px #291370, 12px 10px 15px 7px #1b0a20, -10px 10px 15px 7px #575152,
+  -10px -7px 27px 1px #b9b8bb, inset 5px 5px 50px 5px rgba(14,7,61,0.71),
+  inset 5px 5px 50px 5px rgba(14,7,61,0.71); 
+  box-shadow: 5px 5px 15px 5px #100525, -9px 5px 15px 5px #9a88ff11, 
+  -7px -5px 15px 5px #161d15, 12px -5px 15px 5px #0e1d29, 12px 10px 15px 7px #1a121d,
+  -10px 10px 15px 7px #13090a, -10px -7px 27px 1px #dededf, inset 5px 5px 50px 5px rgba(14,7,61,0.71), 
+  inset 5px 5px 50px 5px rgba(14,7,61,0.71);
+}
+
+/* The popup's "X" */
+.description .close-btnDesc {
+  cursor:pointer;
+  position:absolute;
+  right:20px;
+  top:20px;
+  width:30px;
+  height:30px;
+  background:#222;
+  color:#fff;
+  font-size:25px;
+  font-weight:600;
+  line-height:30px;
+  text-align:center;
+  border-radius:50%;
+}
+
+/* Background */
+.description.activeD .overlayDesc {
+  display:block;
+}
+
+.description.activeD .contentDesc {
+  transition:all 500ms ease-in-out;
+  transform:translate(-50%,-50%) scale(1);
+}
+
+/* The style of popup's button */
+button1 {
+  position: absolute;
+  top:90%;
+  left:10px;
+  font-size:20px;
+  border:2px solid rgb(236, 230, 243);
+  color: rgb(236, 230, 243);
+  font-weight:800;
+  background-color: #000;
+}
+
+#descS {
+  position:absolute;
+  top:50%;
+  left:50%;
+  background-image: url("description.jpg");
+  width:570px;
+  height:750px;
+  z-index:2;
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  -webkit-box-shadow: 5px 5px 15px 5px #0f0625, -9px 5px 15px 5px #a488ff00, -7px -5px 15px 5px #121611, 
+  12px -5px 15px 5px #291370, 12px 10px 15px 7px #1b0a20, -10px 10px 15px 7px #575152,
+  -10px -7px 27px 1px #b9b8bb, inset 5px 5px 50px 5px rgba(14,7,61,0.71),
+  inset 5px 5px 50px 5px rgba(14,7,61,0.71); 
+  box-shadow: 5px 5px 15px 5px #100525, -9px 5px 15px 5px #9a88ff11, 
+  -7px -5px 15px 5px #161d15, 12px -5px 15px 5px #0e1d29, 12px 10px 15px 7px #1a121d,
+  -10px 10px 15px 7px #13090a, -10px -7px 27px 1px #dededf, inset 5px 5px 50px 5px rgba(14,7,61,0.71), 
+  inset 5px 5px 50px 5px rgba(14,7,61,0.71);
+}

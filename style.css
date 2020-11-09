@@ -1,0 +1,117 @@
+button3 {
+    position: absolute;
+    top:85%;
+    left:10px;
+    font-size:20px;
+    border:2px solid rgb(236, 230, 243);
+    color: rgb(236, 230, 243);
+    font-weight:800;
+    background-color: #000;
+}
+
+#image{
+    width: 120px;
+    height: 120px;
+    position: fixed;
+}
+
+#explo{
+    width: 120px;
+    height: 120px;
+    position: fixed;
+}
+
+/* background moved from html as body */
+body {
+    background-image: url("background.png");
+    background-size: cover;
+    cursor: url("scope.png") 60 60, auto;
+}
+
+#score {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #f3f3f3, 
+    0 0 30px #d8e0d6, 0 0 40px #ebf6e8, 0 0 55px #f9fdf8, 0 0 75px #e4e9e2;
+    color: #FFFFFF;
+}
+
+#live {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 
+    0 0 20px #a02525, 0 0 30px #b3541e, 0 0 40px #ad4116, 0 0 55px #af2424, 0 0 75px #b13610;
+    color: #FFFFFF;
+}
+
+#timer {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #f3f3f3, 
+    0 0 30px #d8e0d6, 0 0 40px #ebf6e8, 0 0 55px #f9fdf8, 0 0 75px #e4e9e2;
+    color: #FFFFFF;
+}
+
+#image-div {
+    width: 75%;
+    height: 75%;
+    position: absolute;
+}
+
+#image-div {
+    width: 75%;
+    height: 75%;
+    position: absolute;
+}
+
+#gameover-image {
+    visibility: hidden;
+}
+
+#high-score {
+    color: white;
+    font-size: 75px;
+
+}
+
+.gameover-container {
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.input-container {
+    z-index: 11;
+    visibility: hidden;
+}
+
+.high-score-container {
+    visibility: hidden;
+}
+
+#gameover-text {
+    visibility: hidden;
+    color: white;
+    font-size: 75px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #f3f3f3, 0 0 30px #d8e0d6, 0 0 40px #ebf6e8, 0 0 55px #f9fdf8, 0 0 75px #e4e9e2;
+    color: #FFFFFF;
+    z-index: 11;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shooting Star</title>
+    
+    <button id="developers" onclick="location.href='developers-page.html'">
+      <mark>Explore Artists 🤩</mark></button>
+
+    <script src="main_game.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- There are links to files connected with popup -->
+
+    <!--
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/path/to/jquery.bpopup.min.js"></script>
+    -->
+
+    <script src="popup-effect.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="popup-style.css">
+    <link rel="stylesheet" type="text/css" href="popup-styleDesc.css">
+
+    <link rel="stylesheet" type="text/css" href="under60.css">
+    
+    <!-- END "There are links to files connected with popup" -->
+
+</head>
+
+<body onload="Init()">
+    
+    <audio id="myAudio" muted>
+        <source src="sound.mp3" type="audio/mpeg">
+            
+      </audio>
+
+    <audio id="phaser" muted>
+        <source src="phaser_short.mp3" type="audio/wav">
+            
+      </audio>
+    
+    <audio id="meteor_sound" muted>
+        <source src="meteor.mp3" type="audio/wav">
+            
+    </audio>
+
+    <audio id="death_sound" muted>
+        <source src="meteor_death.mp3" type="audio/wav">
+            
+    </audio>
+
+    <div id="image-div"><img src="1.png" id="image" class="this_image"></div>
+        <div><img src="1.png" id="explo"></div>
+            <div class="score">
+            <div id="score">Score</div>
+    </div>
+
+    <div class="timer">
+        <div id="timer">Time</div>
+    </div>
+
+    <div class="live">
+        <div id="live">Live</div>
+    </div>
+
+    <!--start-->
+    <div><button3 id="new_game" onClick="window.location.reload();">New Game</button></div>
+
+    <!-- Place of creating popup with description -->
+    <div class="description" id="desc">
+        <div class="overlayDesc"></div>
+        <div class="contentDesc">
+            <div class="close-btnDesc" onclick="myFunction()">&times;</div>
+
+            <h2>Game's description</h2>
+            <p1>Hello Player!</p1>
+            <hr>
+            <p1>Welcome in our Universe!</p1>
+            <br>
+            <p1> </p1>
+            <br>
+            <p3>There is a serious task ahead of you. The earth is in danger. Countless meteorites are heading towards it. 
+                To save the day, you will need to be able to distinguish between what is good and what is bad.</p3>
+            <p3>Neighboring civilization promised to help stop meteorites, but made a condition
+                - we must win in the intergalactic shooting competition.</p3>
+            <p3> </p3>
+            <br>
+            <p3><img src="scope.png"> You are our candidate. Please use this viewfinder
+            to locate good things as stars and collect them to get points</p3>
+            <br>
+            <p3>Don't let us down! Our all hope is in</p3>
+            <h2>YOU</h2>
+            <p3>*If you need more information you can click anytime "What symbols mean?" GOOD LUCK!</p3>
+
+        </div>
+    </div>
+
+    <button1 onclick="myFunction()">Game's description</button1>
+<!--
+    <div class="descriptionS" id="descS">
+        <div class="overlayDescS"></div>
+        <div class="contentDescS">
+          <h2>Game's description</h2>
+                <p1>Hello Player!</p1>
+                <hr>
+                <p1>Welcome in our Universe!</p1>
+                <br>
+                <p1> </p1>
+                <br>
+                <p3>There is a serious task ahead of you. The earth is in danger. Countless meteorites are heading towards it. 
+                    To save the day, you will need to be able to distinguish between what is good and what is bad.</p3>
+                <p3>Neighboring civilization promised to help stop meteorites, but made a condition
+                    - we must win in the intergalactic shooting competition.</p3>
+                <p3> </p3>
+                <br>
+                <p3><img src="scope.png"> You are our candidate. Please use this viewfinder
+                to locate good things as stars and collect them to get points</p3>
+                <br>
+                <p3>Don't let us down! Our all hope is in</p3>
+                <h2>YOU</h2>
+                <p3>*If you need more information you can click anytime "What symbols mean?" GOOD LUCK!</p3>
+    
+            </div>
+        </div>
+      
+      <buttonD onclick="bPopup()">Game's description</buttonD>
+-->
+    <!-- Place of creating popup with instruction-->
+<!--start-->
+<div><button3 id="new_game" onClick="window.location.reload();">New Game</button3></div>
+
+    <div class="popup" id="popup-1">
+
+        <!-- That happens when popup active -->
+
+        <div class="overlay"></div>
+        <div class="content">
+
+            <!-- Inside of popup -->
+
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+
+        <!-- Title of popup -->
+
+        <h2>What symbols mean?</h2>
+
+        <!-- Import images to popup -->
+
+        <p style="image-orientation: left"><img src= star.webp>5 point</p>
+        <hr>
+        <p style="image-orientation: left"><img src= planet.gif>10 points</p>
+        <hr>
+        <p style="image-orientation: left"><img src= heart.webp>1 extra life</p>
+        <hr>
+        <p style="image-orientation: left"><img src= UFO.gif>10 extra seconds</p>
+        <hr>
+        <p style="image-orientation: left"><img src= meteor.gif>-5 points and -1 life</p>
+        <hr>
+        <p style="image-orientation: left"><img src= meteor_death.png>-20 points and GAME OVER</p>
+
+        </div>
+    </div>
+    
+    <!-- Button on page -->
+
+    <button2 onclick="togglePopup()">What symbols mean?</button2>
+<!-- GAME OVER IMAGE-->
+<div class="gameover-container">
+    <div id="gameover-text">Enter your name</div>
+    <div class="input-container">
+        <input type="text" id="input">
+        <button type="button" onclick="updateHighScore();">Send</button>
+    </div>
+    <div class="high-score-container">
+        <ol id="high-score"></ol>
+    </div>
+
+</div>
+
+<div class="under60" id="u60">
+    <div class="overlay60"></div>
+    <div class="content60" id="content60" >
+      <h3>game over</h3>
+      <p60>This is the end of your... our journey.</p60>
+      <br>
+      <p60>The comets are approaching the earth at great speed.
+        The result you achieved is disappointing...</p60>
+      <br>
+      <p60>
+        Thank you for your willingness to help, but apparently we should get someone else involved.
+      </p60>
+      <br>
+      <h4>We are lost! We will all die!</h4>
+      <hr>
+      <p61><img src="cookie.png" id="small-cookie"> Here you are. It is your a consolation prize. 1st</p61>
+    </div>
+</div>
+
+
+<div class="after60" id="u60a">
+    <div class="overlay60a"></div>
+    <div class="content60a">
+      <div class="close-btn60a"></div>
+      <h5>game over</h5>
+      <p60A>This is the end of your... our journey.</p60A>
+      <br>
+      <p60A>The comets are approaching the earth at great speed.
+        The result you achieved is fantastic...</p60A>
+      <br>
+      <p60A>We were afraid that one of the players would get a higher result, but you did it!</p60A>
+      <br>
+      <p60A>
+        Thank you for your help. Defense ships have already been dispatched and they
+        are entering the Earth's atmosphere.</p60A>
+      <h6>We are saved thanks to you!</h6>
+      <p61A><img src="cookiejar.png" id="medium-cookie"> This is your extra prize from community.</p61A>
+    </div>
+  </div>
+
+
+<div class="extrapoint" id="extra">
+    <div class="overlayExtra"></div>
+    <div class="contentExtra">
+      <div class="close-btnExtra"></div>
+      <h7>game over</h7>
+      <br>
+      <br>
+      <br>
+      <p200>This is the end of your... our journey.</p200>
+      <br>
+      <p200>The comets are approaching the earth at great speed.
+        Your score ... It's absolutely phenomenal!</p200>
+      <br>
+      <p200>
+        Thank you for your help. Defense ships have already been dispatched and they
+        are entering the Earth's atmosphere.
+      </p200>
+      <br>
+      <p200>We are absolutely sure that you can always be counted on!</p200>
+      <br>
+      <br>
+      <br>
+      <h8>You are our hero.</h8>
+      <br>
+      <h8>Never forget about it!</h8>
+      <hr>
+      <p201><img src="extracookiejar.png" id="big-cookie"> This is your extra prize from community.</p201>
+    </div>
+  </div>
+
+</body>
+</html>

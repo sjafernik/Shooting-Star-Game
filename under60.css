@@ -1,0 +1,257 @@
+
+ h3 {
+      text-shadow: 0 0 5px rgb(56, 8, 8), 0 0 10px rgb(54, 2, 2), 0 0 15px rgb(144, 15, 15), 0 0 20px #ff1818, 0 0 30px #290404, 0 0 40px #9b0b0b, 0 0 55px #ff1818, 0 0 75px #8b1515, 2px 30px 16px rgba(206,7,7,0.54), 31px 2px 17px rgba(130,4,4,0.54), 31px 2px 17px #820404, -29px -6px 16px rgba(130,4,4,0.91), -29px -6px 16px rgba(130,4,4,0.91);
+      color: #000000;
+      font-family: 'Syne Mono', monospace;
+      font-size: 50px;
+      letter-spacing: 15px;
+      word-spacing: 2px;
+      font-weight: 2000;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: uppercase;
+      text-decoration: underline solid rgb(0, 0, 0);
+    }
+
+ h4 {
+      text-shadow: 0 0 5px rgb(56, 8, 8), 0 0 10px rgb(54, 2, 2), 0 0 15px rgb(144, 15, 15), 0 0 20px #ff1818, 0 0 30px #290404, 0 0 40px #9b0b0b, 0 0 55px #ff1818, 0 0 75px #8b1515, 2px 30px 16px rgba(206,7,7,0.54), 31px 2px 17px rgba(130,4,4,0.54), 31px 2px 17px #820404, -29px -6px 16px rgba(130,4,4,0.91), -29px -6px 16px rgba(130,4,4,0.91);
+      color: #000000;
+      font-family: 'Syne Mono', monospace;
+      font-size: 30px;
+      letter-spacing: 2px;
+      font-weight: 2000;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: uppercase;
+      text-decoration: underline solid rgb(0, 0, 0);
+    }
+
+  p60 {
+      font-size: 150%;
+      padding: 10px;
+      text-align: left;
+      margin: auto;
+      font-family: 'Syne Mono', monospace;
+      font-weight: 2000;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 2px 3px rgba(255,255,255,.2), -2px 3px 7px rgba(13,5,51,0.71), -2px 3px 7px rgba(0, 0, 0, 0.71);
+    }
+
+ p61 {
+      font-size: 100%;
+      padding: 10px;
+      text-align: left;
+      margin: auto;
+      font-family: 'Syne Mono', monospace;
+      font-weight: 2000;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 2px 3px rgba(255,255,255,.2), -2px 3px 7px rgba(13,5,51,0.71), -2px 3px 7px rgba(0, 0, 0, 0.71);
+    }
+
+ .under60 {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+  }
+
+  /* The popup box */
+  .under60 .content60 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background-image: url("under60.jpg");
+    width:700px;
+    height:610px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    -webkit-box-shadow: 5px 5px 15px 5px #25060e, -9px 5px 15px 5px #ff88a600, -7px -5px 15px 5px #121611, 12px -5px 15px 5px #701327, 12px 10px 15px 7px #200a0f, -10px 10px 15px 7px #575152, -10px -7px 27px 1px #bbb8b9, inset 5px 5px 50px 5px rgba(61, 7, 12, 0.71), inset 5px 5px 50px 5px rgba(61, 7, 14, 0.71);
+    box-shadow: 5px 5px 15px 5px #250511, -9px 5px 15px 5px #ff889211, -7px -5px 15px 5px #1d1517, 12px -5px 15px 5px #0e1d29, 12px 10px 15px 7px #1d1214, -10px 10px 15px 7px #13090a, -10px -7px 27px 1px #dfdedf, inset 5px 5px 50px 5px rgba(61, 7, 14, 0.71), inset 5px 5px 50px 5px rgba(61, 7, 19, 0.71);
+  }
+
+  .under60 .content60 {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+  }
+
+ #big-cookie {
+      max-width: auto;
+      max-height: 17%;
+    }
+
+    h7 {
+      text-shadow: 0 0 5px rgb(27, 8, 71), 0 0 10px rgb(2, 26, 54), 0 0 15px rgb(118, 15, 144), 0 0 20px #5618ff, 0 0 30px #040b29, 0 0 40px #580b58, 0 0 55px #5d18ff, 0 0 75px #34158b, 2px 30px 16px rgba(143, 7, 206, 0.54), 31px 2px 17px rgba(115, 4, 130, 0.54), 31px 2px 17px #827a04, -29px -6px 16px rgba(130, 111, 4, 0.91), -29px -6px 16px rgba(130,4,4,0.91);
+      color: #fffefe;
+      font-family: 'Syne Mono', monospace;
+      font-size: 50px;
+      letter-spacing: 15px;
+      word-spacing: 2px;
+      font-weight: 2000;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: uppercase;
+      text-decoration: underline solid rgb(0, 0, 0);
+    }
+
+    h8 {
+      text-shadow: 0 0 5px rgb(27, 8, 71), 0 0 10px rgb(2, 26, 54), 0 0 15px rgb(118, 15, 144), 0 0 20px #5618ff, 0 0 30px #040b29, 0 0 40px #580b58, 0 0 55px #5d18ff, 0 0 75px #34158b, 2px 30px 16px rgba(143, 7, 206, 0.54), 31px 2px 17px rgba(115, 4, 130, 0.54), 31px 2px 17px #827a04, -29px -6px 16px rgba(130, 111, 4, 0.91), -29px -6px 16px rgba(130,4,4,0.91);
+      color: #fffefe;
+      font-family: 'Syne Mono', monospace;
+      font-size: 30px;
+      font-weight: 2000;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: uppercase;
+      text-decoration: underline solid rgb(0, 0, 0);
+    }
+
+    p200 {
+      font-size: 150%;
+      padding: 10px;
+      text-align: left;
+      margin: auto;
+      font-family: 'Syne Mono', monospace;
+      font-weight: 2000;
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 5px rgb(22, 8, 56), 0 0 10px rgb(2, 26, 54), 0 0 15px rgb(15, 129, 144), 0 0 20px #18dcff, 0 0 30px #040b29, 0 0 40px #0b2d9b, 0 0 55px #5d18ff, 0 0 75px #34158b, 2px 30px 16px rgba(7, 100, 206, 0.54), 31px 2px 17px rgba(12, 4, 130, 0.54), 31px 2px 17px #820404, -29px -6px 16px rgba(130,4,4,0.91), -29px -6px 16px rgba(130,4,4,0.91);
+    }
+
+    p201 {
+      font-size: 150%;
+      padding: 10px;
+      text-align: left;
+      margin: auto;
+      font-family: 'Syne Mono', monospace;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 5px rgb(22, 8, 56), 0 0 10px rgb(2, 26, 54), 0 0 15px rgb(15, 129, 144), 0 0 20px #18dcff, 0 0 30px #040b29, 0 0 40px #0b2d9b, 0 0 55px #5d18ff, 0 0 75px #34158b, 2px 30px 16px rgba(7, 100, 206, 0.54), 31px 2px 17px rgba(12, 4, 130, 0.54), 31px 2px 17px #820404, -29px -6px 16px rgba(130,4,4,0.91), -29px -6px 16px rgba(130,4,4,0.91);
+    }
+
+  /* The background when popup is active and game is over */
+  .extrapoint {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display: none;
+  }
+
+  /* The popup box */
+  .extrapoint .contentExtra {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background-image: url("extrapoint.png");
+    width:550px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    -webkit-box-shadow: 5px 5px 15px 5px #25060e, -9px 5px 15px 5px #ff88a600, -7px -5px 15px 5px #121611, 12px -5px 15px 5px #701327, 12px 10px 15px 7px #200a0f, -10px 10px 15px 7px #575152, -10px -7px 27px 1px #bbb8b9, inset 5px 5px 50px 5px rgba(61, 7, 12, 0.71), inset 5px 5px 50px 5px rgba(61, 7, 14, 0.71);
+    box-shadow: 5px 5px 15px 5px #250511, -9px 5px 15px 5px #ff889211, -7px -5px 15px 5px #1d1517, 12px -5px 15px 5px #0e1d29, 12px 10px 15px 7px #1d1214, -10px 10px 15px 7px #13090a, -10px -7px 27px 1px #dfdedf, inset 5px 5px 50px 5px rgba(61, 7, 14, 0.71), inset 5px 5px 50px 5px rgba(61, 7, 19, 0.71);
+  }
+
+  .extrapoint .contentExtra {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+  }
+
+ #medium-cookie {
+      max-width: auto;
+      max-height: 10%;
+    }
+
+    h5 {
+      text-shadow: 0 0 5px rgb(22, 8, 56), 0 0 10px rgb(2, 26, 54), 0 0 15px rgb(15, 129, 144), 0 0 20px #18dcff, 0 0 30px #040b29, 0 0 40px #0b2d9b, 0 0 55px #5d18ff, 0 0 75px #34158b, 2px 30px 16px rgba(7, 100, 206, 0.54), 31px 2px 17px rgba(12, 4, 130, 0.54), 31px 2px 17px #820404, -29px -6px 16px rgba(130,4,4,0.91), -29px -6px 16px rgba(130,4,4,0.91);
+      color: #fffefe;
+      font-family: 'Syne Mono', monospace;
+      font-size: 50px;
+      letter-spacing: 15px;
+      word-spacing: 2px;
+      font-weight: 2000;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: uppercase;
+      text-decoration: underline solid rgb(0, 0, 0);
+    }
+
+    h6 {
+      text-shadow: 0 0 5px rgb(22, 8, 56), 0 0 10px rgb(2, 26, 54), 0 0 15px rgb(15, 129, 144), 0 0 20px #18dcff, 0 0 30px #040b29, 0 0 40px #0b2d9b, 0 0 55px #5d18ff, 0 0 75px #34158b, 2px 30px 16px rgba(7, 100, 206, 0.54), 31px 2px 17px rgba(12, 4, 130, 0.54), 31px 2px 17px #820404, -29px -6px 16px rgba(130,4,4,0.91), -29px -6px 16px rgba(130,4,4,0.91);
+      color: #fbf8f3;
+      font-family: 'Syne Mono', monospace;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: 2000;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: uppercase;
+      text-decoration: underline solid rgb(0, 0, 0);
+    }
+
+    p60A {
+      font-size: 120%;
+      padding: 5px;
+      text-align: left;
+      margin: auto;
+      font-family: 'Syne Mono', monospace;
+      font-weight: 2000;
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 5px rgb(22, 8, 56), 0 0 10px rgb(2, 26, 54), 0 0 15px rgb(15, 129, 144), 0 0 20px #18dcff, 0 0 30px #040b29, 0 0 40px #0b2d9b, 0 0 55px #5d18ff, 0 0 75px #34158b, 2px 30px 16px rgba(7, 100, 206, 0.54), 31px 2px 17px rgba(12, 4, 130, 0.54), 31px 2px 17px #820404, -29px -6px 16px rgba(130,4,4,0.91), -29px -6px 16px rgba(130,4,4,0.91);
+    }
+
+    p61A {
+      font-size: 120%;
+      padding: 5px;
+      text-align: left;
+      margin: auto;
+      font-family: 'Syne Mono', monospace;
+      font-weight: 2000;
+      color: rgb(255, 255, 255);
+      text-shadow: 3px 2px 3px rgba(255,255,255,.2), -2px 3px 7px rgba(13,5,51,0.71), -2px 3px 7px rgba(0, 0, 0, 0.71);
+    }
+
+  /* The background when popup is active and game is over */
+  .after60 {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display: none;
+  }
+
+  /* The popup box */
+  .after60 .content60a {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background-image: url("after60.webp");
+    width:600px;
+    height:625px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    -webkit-box-shadow: 5px 5px 15px 5px #25060e, -9px 5px 15px 5px #ff88a600, -7px -5px 15px 5px #121611, 12px -5px 15px 5px #701327, 12px 10px 15px 7px #200a0f, -10px 10px 15px 7px #575152, -10px -7px 27px 1px #bbb8b9, inset 5px 5px 50px 5px rgba(61, 7, 12, 0.71), inset 5px 5px 50px 5px rgba(61, 7, 14, 0.71);
+    box-shadow: 5px 5px 15px 5px #250511, -9px 5px 15px 5px #ff889211, -7px -5px 15px 5px #1d1517, 12px -5px 15px 5px #0e1d29, 12px 10px 15px 7px #1d1214, -10px 10px 15px 7px #13090a, -10px -7px 27px 1px #dfdedf, inset 5px 5px 50px 5px rgba(61, 7, 14, 0.71), inset 5px 5px 50px 5px rgba(61, 7, 19, 0.71);
+  }
+
+  .after60 .content60a {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+  }
